@@ -9,3 +9,4 @@ INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Martin','Torr
 INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Ramon','Perez','rp@yahoo.com','2011-12-27');
 INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('James','Perengano','jp@aol.com','2001-12-15');
 INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Lucian','Cornwell','lc@aol.com','1991-12-15');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Nico','Robin','one.piece@willneverbefound.pleasehelp.grandline','1991-12-15');
