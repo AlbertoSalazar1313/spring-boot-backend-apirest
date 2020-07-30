@@ -127,6 +127,7 @@ public class ClienteRestController {
 			clienteactual.setApellido(cliente.getApellido());
 			clienteactual.setNombre(cliente.getNombre());
 			clienteactual.setEmail(cliente.getEmail());
+			clienteactual.setCreateAt(cliente.getCreateAt());
 			clienteupdated = clienteService.save(clienteactual);
 		} catch (DataAccessException e) {
 			response.put("mensaje", "Error al actualizar el cliente en la base de datos");
